@@ -13,7 +13,7 @@ function getBMIMeaning(weight, height) {
   else if(18.<=BMI<=24.9) {
     return "Normal weight"
   }
-  else {
+  else if(BMI>25.0){
     return "Overweight"
   }
 }
